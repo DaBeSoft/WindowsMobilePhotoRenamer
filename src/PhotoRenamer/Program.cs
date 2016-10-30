@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace PhotoRenamer
 {
     public class Program
     {
-        private static int count = 0;
+        private static int _count;
 
         public static void Main(string[] args)
         {
@@ -26,14 +23,14 @@ namespace PhotoRenamer
             
             DoDirectoryRecursiv(path);
 
-            Console.WriteLine($"renamed {count} files");
+            Console.WriteLine($"renamed {_count} files");
             Console.ReadLine();
         }
 
         private static void PrintBanner()
         {
             Console.WriteLine("###################################################");
-            Console.WriteLine("# Winows Mobile Photo Renamer                     #");
+            Console.WriteLine("# Windows Mobile Photo Renamer                    #");
             Console.WriteLine("# Daniel Bernegger - daniel.bernegger@dabesoft.at #");
             Console.WriteLine("# www.dabesoft.at || blog.dabesoft.at             #");
             Console.WriteLine("###################################################");
@@ -72,7 +69,7 @@ namespace PhotoRenamer
             }
 
             Console.WriteLine($"renamed {x} files in dir");
-            count += x;
+            _count += x;
         }
     }
 }
