@@ -12,6 +12,8 @@ namespace PhotoRenamer
 
         public static void Main(string[] args)
         {
+            PrintBanner();
+
             var path = string.Empty;
             if (args.Length > 0)
                 path = args[0];
@@ -26,6 +28,16 @@ namespace PhotoRenamer
 
             Console.WriteLine($"renamed {count} files");
             Console.ReadLine();
+        }
+
+        private static void PrintBanner()
+        {
+            Console.WriteLine("###################################################");
+            Console.WriteLine("# Winows Mobile Photo Renamer                     #");
+            Console.WriteLine("# Daniel Bernegger - daniel.bernegger@dabesoft.at #");
+            Console.WriteLine("# www.dabesoft.at || blog.dabesoft.at             #");
+            Console.WriteLine("###################################################");
+            Console.WriteLine();
         }
 
         private static void DoDirectoryRecursiv(string path)
