@@ -25,5 +25,4 @@ dotnet run
 
 Help for installing dotnet core: https://www.microsoft.com/net/core
 
-You can read more here (german):
-https://blog.dabesoft.at/2016/11/01/windows-10-mobile-fotos-und-adobe-lightroom/
+You can read more [here (german)](https://blog.dabesoft.at/2016/11/01/windows-10-mobile-fotos-und-adobe-lightroom/).
