@@ -23,6 +23,7 @@ cd WindowsMobilePhotoRenamer/src/PhotoRenamer
 dotnet restore  
 dotnet run  
 
-Maybe you have to edit the runtimes section of the project.json file to include your runtime according to:   https://github.com/dotnet/corefx/blob/master/pkg/Microsoft.NETCore.Platforms/runtime.json
-
 Help for installing dotnet core: https://www.microsoft.com/net/core
+
+You can read more here (german):
+https://blog.dabesoft.at/2016/11/01/windows-10-mobile-fotos-und-adobe-lightroom/
