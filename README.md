@@ -1,3 +1,4 @@
+
 # Windows Mobile Photo Renamer
 Renames Windows 10 Mobiles RAW Photos to match the JPG names
 
@@ -15,11 +16,12 @@ Just start the application and enter the path to your photos.
 #Compile it yourself
 There is a windows build provided in the release section.
 
-Since this Program is written in .NET CORE its also possibl to run it on Linux or a Mac. You Probably have to compile it yourself tough.
+Since this Program is written in .NET CORE its also possible to run it on Linux or a Mac. You Probably have to compile it yourself tough.
 
 git clone https://github.com/DaBeSoft/WindowsMobilePhotoRenamer.git
+cd WindowsMobilePhotoRenamer/
 dotnet restore
 dotnet run
 
-More at:
-https://docs.microsoft.com/en-us/dotnet/articles/core/tutorials/using-with-xplat-cli
+Help for installing dotnet core: 
+https://www.microsoft.com/net/core
