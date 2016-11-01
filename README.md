@@ -19,9 +19,11 @@ There is a windows build provided in the release section.
 Since this Program is written in .NET CORE its also possible to run it on Linux or a Mac. You Probably have to compile it yourself tough.
 
 git clone https://github.com/DaBeSoft/WindowsMobilePhotoRenamer.git
-cd WindowsMobilePhotoRenamer/
+cd WindowsMobilePhotoRenamer/src/PhotoRenamer
 dotnet restore
 dotnet run
+
+Maybe you have to edit the runtimes section of the project.json file to include your runtime according to: https://github.com/dotnet/corefx/blob/master/pkg/Microsoft.NETCore.Platforms/runtime.json
 
 Help for installing dotnet core: 
 https://www.microsoft.com/net/core
