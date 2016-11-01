@@ -10,7 +10,7 @@
 
   "dependencies": {
     "Microsoft.NETCore.App": {
-      "type": "default",
+      "type": "platform",
       "version": "1.0.1"
     }
   },
@@ -19,10 +19,5 @@
     "netcoreapp1.0": {
       "imports": "dnxcore50"
     }
-  },
-
-  "runtimes": {
-    "win7-x64": {},
-    "ubuntu.14.04-x64": {}
   }
 }
